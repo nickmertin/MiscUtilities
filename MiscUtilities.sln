@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MiscUtilities", "MiscUtilities.shproj", "{3FA8D0EE-B528-457B-984C-9CC182FCD11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BFA511A2-6D4E-43BB-A2E4-44B47C97AEA3}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MiscUtilities.projitems*{3fa8d0ee-b528-457b-984c-9cc182fcd11b}*SharedItemsImports = 13
+		MiscUtilities.projitems*{bfa511a2-6d4e-43bb-a2e4-44b47c97aea3}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFA511A2-6D4E-43BB-A2E4-44B47C97AEA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA511A2-6D4E-43BB-A2E4-44B47C97AEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA511A2-6D4E-43BB-A2E4-44B47C97AEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA511A2-6D4E-43BB-A2E4-44B47C97AEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
